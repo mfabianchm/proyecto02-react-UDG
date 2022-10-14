@@ -1,0 +1,42 @@
+.logo-socio {
+  width: 90px;
+}
+
+.nosotros-main-container {
+  position: relative;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+
+.nosotros-img-02 {
+  width: 400px;
+  height: 50%;
+  margin-right: 50px;
+}
+
+.nosotros-img {
+  width: 300px;
+  position: absolute;
+  border-radius: 20px;
+  bottom: 30px;
+}
+
+@media (min-width: 300px) and (max-width: 610px) {
+  .nosotros-main-container {
+    flex-direction: column;
+    height: 900px;
+  }
+
+  .nosotros-img-02 {
+    width: 250px;
+    height: 300px;
+    margin-right: 50px;
+  }
+
+  .logo-socio {
+    width: 60px;
+    margin-right: 20px;
+  }
+}
