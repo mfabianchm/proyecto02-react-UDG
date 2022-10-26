@@ -1,0 +1,40 @@
+.product-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+.product-img {
+  width: 80%;
+}
+
+.product-title {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.product-description {
+  text-align: justify;
+  margin-top: 0px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.product-button {
+  border-radius: 5px;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.product-button:hover {
+  background-color: pink;
+  color: white;
+}

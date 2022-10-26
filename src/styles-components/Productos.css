@@ -1,0 +1,17 @@
+.productos-main-container {
+  padding: 30px;
+  background-color: pink;
+  margin: 0px;
+}
+
+.productos-main-container h1,
+h2 {
+  text-align: center;
+}
+
+.flores-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  flex-wrap: wrap;
+}

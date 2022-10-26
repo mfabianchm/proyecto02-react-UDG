@@ -1,0 +1,16 @@
+.menu-nav-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: absolute;
+  background-color: pink;
+  height: 300px;
+}
+
+.menu-nav-main-container a {
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}

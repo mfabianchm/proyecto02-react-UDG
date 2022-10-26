@@ -1,0 +1,10 @@
+.navmobile-main-container {
+  height: 70px;
+  background-color: pink;
+}
+
+.button-menu {
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
